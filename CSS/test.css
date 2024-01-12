@@ -1,0 +1,75 @@
+/* Styles de base */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+   }
+   
+   header {
+    background-color: #333;
+    padding: 10px 0;
+   }
+   
+   nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+   }
+   
+   nav li {
+    display: inline-block;
+   }
+   
+   nav a {
+    color: white;
+    text-decoration: none;
+    padding: 8px 16px;
+    display: inline-block;
+   }
+   
+   nav a:hover {
+    background-color: #ddd;
+    color: black;
+   }
+   
+   /* Styles du menu burger */
+   .burger-menu,
+   input {
+    display: none;
+   }
+   
+   .burger-menu-line {
+    width: 25px;
+    height: 3px;
+    background-color: white;
+    margin: 4px 0;
+    transition: all 0.3s;
+   }
+   
+   /* Styles de l'en-tête en version mobile */
+   @media (max-width: 768px) {
+    .nav-menu {
+       display: none;
+    }
+   
+    .burger-menu,
+    input {
+       display: block;
+    }
+   
+    #nav-toggle:checked + .burger-menu .burger-menu-line:nth-child(1) {
+       transform: translateY(5px) rotate(45deg);
+    }
+   
+    #nav-toggle:checked + .burger-menu .burger-menu-line:nth-child(2) {
+       opacity: 0;
+    }
+   
+    #nav-toggle:checked + .burger-menu .burger-menu-line:nth-child(3) {
+       transform: translateY(-5px) rotate(-45deg);
+    }
+   
+    #nav-toggle:checked ~ .nav-menu {
+       display: block;
+    }
+   }
