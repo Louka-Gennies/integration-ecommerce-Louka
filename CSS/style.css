@@ -29,8 +29,20 @@ img:hover {
 
 .main-part {
     display: grid;
-    gap: 10px;
     width: 100%;
+    gap: 10px;
+}
+
+.description-item {
+    display: grid;
+    gap: 10px;
+}
+
+h1 {
+    font-size: 40px;
+    font-weight: bold;
+    color: #000000;
+    margin: 0;
 }
 
 .text{
@@ -66,15 +78,16 @@ img:hover {
 .description {
     font-size: 16px;
     color: gray;
+    margin-bottom: 5%;
 }
 
 .color {
-    
     font-size: 18px;
     color: gray;
 }
 
 .color-choice {
+    padding-top: 5px;
     display: flex;
     gap: 10px;
     align-items: center;
@@ -96,9 +109,11 @@ img:hover {
 }
 
 .size-choice {
+    padding-top: 5px;
     display: flex;
     gap: 20px;
     align-items: center;
+    padding-top: 20px 0;
 }
 
 .size-1 {
@@ -138,6 +153,8 @@ img:hover {
 .quantity{
     display: flex;
     justify-content: space-between;
+    padding-top: 20px;
+    border-top: 1px solid #e6e6e6;
 }
 
 .select-quantity {
@@ -197,3 +214,4 @@ img:hover {
 .add-to-cart:hover {
     background-color: #1F59ED;
 }
+
