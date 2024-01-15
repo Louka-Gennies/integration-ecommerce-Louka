@@ -477,6 +477,10 @@ img {
         transition-duration: .25s;
     }
 
+    .main-part {
+        gap : 20px
+    }
+
     .menu__item:hover {
         background-color: #b9b9b9;
     }
