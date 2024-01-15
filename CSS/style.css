@@ -445,6 +445,7 @@ img {
         cursor: pointer;
         height: fit-content;
         width: fit-content;
+        z-index: 1;
     }
     
     #menu__toggle {
@@ -502,7 +503,7 @@ img {
     }
     
     #menu__toggle:checked + .menu__btn .burger-menu-line:nth-child(2) {
-        opacity: 0;
+        opacity: 0%;
     }
     
     #menu__toggle:checked + .menu__btn .burger-menu-line:nth-child(3) {
@@ -512,6 +513,7 @@ img {
     #menu__toggle:checked ~ .menu__box {
         left: 0 !important;
     }
+
     .content {
         display: flex;
         flex-direction: column;
