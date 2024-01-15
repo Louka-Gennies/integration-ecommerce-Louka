@@ -1,5 +1,6 @@
 @import url(https://fonts.bunny.net/css?family=allerta:400);
 
+/*styling of the page*/
 body{
     font-family: 'Allerta', sans-serif;
     margin-left: 100px;
@@ -8,6 +9,7 @@ body{
     margin-bottom: 100px;
 }
 
+/*start styling of the navbar*/
 nav{
     margin-bottom: 40px;
 }
@@ -103,7 +105,9 @@ hr{
 .hamburger-menu{
     display: none;
 }
+/*end styling of the navbar*/
 
+/*start styling of the comments*/
 .header {
     display: flex;
     justify-content: space-between;
@@ -169,13 +173,16 @@ hr{
     height: 23px;
     width: auto;
 }
+/*end styling of the comments*/
 
+/*start styling of the shop*/
 .content {
     display: grid;
     column-gap: 40px;
     grid-template-columns: auto 1fr;
 }
 
+/*styling of the images*/
 .images{
     display: grid;
     grid-template-columns: auto 1fr;
@@ -199,6 +206,7 @@ hr{
 img {
     cursor: pointer;
 }
+/*end styling of the images*/
 
 .main-part {
     display: flex;
@@ -213,6 +221,7 @@ img {
     margin: 0px;
 }
 
+/*start styling of the rating*/
 .rating{
     display: flex;
     gap: 16px;
@@ -233,6 +242,7 @@ img {
     opacity: 60%;
     margin: 0px 0px 0px 0px;
 }
+/*end styling of the rating*/
 
 .price{
     font-size: 32px;
@@ -334,6 +344,7 @@ img {
     height: 52px;
 }
 
+/*start styling of the color choice*/
 .color-text {
     font-size: 16px;
     font-weight: 400;
@@ -367,17 +378,12 @@ img {
     background-color: #314F4A;
 }
 
-.info{
-    display: flex;
-    flex-direction: column;
-    gap: 15px;
-}
-
 .colors{
     display: flex;
     flex-direction: column;
     gap: 5px;
 }
+/*end styling of the color choice*/
 
 .size-cart{
     display: flex;
@@ -390,10 +396,18 @@ img {
     margin-bottom: 20px;
 }
 
+.info{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
 .phone{
     display: none;
 }
+/*end styling of the shop*/
 
+/*styling for the animation when it's a desktop*/
 @media screen and (min-width: 1200px) {
     .btn-review:hover{
         background-color: #1536ad;
@@ -420,6 +434,7 @@ img {
     }
 }
 
+/*styling for ipad screen*/
 @media screen and (max-width: 1200px) {
     body {
         font-family: Arial, Helvetica, sans-serif;
@@ -440,6 +455,7 @@ img {
         display: none;
     }
 
+    /*stat styling of the burger menu*/
     .hamburger-menu{
         display: block;
         cursor: pointer;
@@ -517,6 +533,7 @@ img {
     #menu__toggle:checked ~ .menu__box {
         left: 0 !important;
     }
+    /*end styling of the burger menu*/
 
     .content {
         display: flex;
@@ -560,6 +577,7 @@ img {
      }
 }
 
+/*styling for phone screen*/
 @media screen and (max-width: 600px) {
     body {
         font-family: Arial, Helvetica, sans-serif;
