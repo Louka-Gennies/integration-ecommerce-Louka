@@ -2,101 +2,171 @@
 <html lang="fr">
 <head>
     <meta charset="UTF-8">
-    <title>Accueil</title>
-    <link rel="stylesheet" href="../CSS/style.css">
+    <link href="../CSS/style.css" rel="stylesheet">
+    <title>SHOP.CO</title>
 </head>
 <body>
-<body>
-     <div class ="content">
-        <div class = "images">
-            <div class ="small-image">
-                <img src="../IMG/small_tshirt_1.png" alt="small_tshirt_1">
-                <img src="../IMG/small_tshirt_2.png" alt="small_tshirt_2">
-                <img src="../IMG/small_tshirt_3.png" alt="small_tshirt_3">
+    <header>
+        <nav>
+            <ul>
+                <li class="hamburger-menu">
+                    <input id="menu__toggle" type="checkbox">
+                    <label class="menu__btn" for="menu__toggle">
+                        <span class="burger-menu-line"></span>
+                        <span class="burger-menu-line"></span>
+                        <span class="burger-menu-line"></span>
+                    </label>
+                    <ul class="menu__box">
+                        <li><a class="menu__item">Shop</a></li>
+                        <li><a class="menu__item">On Sale</a></li>
+                        <li><a class="menu__item">New Arrivals</a></li>
+                        <li><a class="menu__item">Brands</a></li>
+                    </ul>
+                </li>
+                <li><a class="home">SHOP.CO</a></li>
+                <li class="shop"><a>Shop</a><svg class="chevron" xmlns="http://www.w3.org/2000/svg" height="16" width="16" viewBox="0 0 512 512"><path d="M233.4 406.6c12.5 12.5 32.8 12.5 45.3 0l192-192c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L256 338.7 86.6 169.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l192 192z"/></svg></li>
+                <li><a>On Sale</a></li>
+                <li><a>New Arrivals</a></li>
+                <li><a>Brands</a></li>
+                <li class="search">
+                    <div>
+                        <svg class="spy" xmlns="http://www.w3.org/2000/svg" height="16" width="16" viewBox="0 0 512 512"><path d="M416 208c0 45.9-14.9 88.3-40 122.7L502.6 457.4c12.5 12.5 12.5 32.8 0 45.3s-32.8 12.5-45.3 0L330.7 376c-34.4 25.2-76.8 40-122.7 40C93.1 416 0 322.9 0 208S93.1 0 208 0S416 93.1 416 208zM208 352a144 144 0 1 0 0-288 144 144 0 1 0 0 288z"/></svg>
+                        <input type="text" class="search_input" placeholder="Search for products...">
+                    </div>
+                    <div class="logo_end">
+                        <svg xmlns="http://www.w3.org/2000/svg" height="16" width="16" viewBox="0 0 512 512"><path d="M416 208c0 45.9-14.9 88.3-40 122.7L502.6 457.4c12.5 12.5 12.5 32.8 0 45.3s-32.8 12.5-45.3 0L330.7 376c-34.4 25.2-76.8 40-122.7 40C93.1 416 0 322.9 0 208S93.1 0 208 0S416 93.1 416 208zM208 352a144 144 0 1 0 0-288 144 144 0 1 0 0 288z"/></svg>
+                        <svg xmlns="http://www.w3.org/2000/svg" height="16" width="18" viewBox="0 0 576 512"><path d="M0 24C0 10.7 10.7 0 24 0H69.5c22 0 41.5 12.8 50.6 32h411c26.3 0 45.5 25 38.6 50.4l-41 152.3c-8.5 31.4-37 53.3-69.5 53.3H170.7l5.4 28.5c2.2 11.3 12.1 19.5 23.6 19.5H488c13.3 0 24 10.7 24 24s-10.7 24-24 24H199.7c-34.6 0-64.3-24.6-70.7-58.5L77.4 54.5c-.7-3.8-4-6.5-7.9-6.5H24C10.7 48 0 37.3 0 24zM128 464a48 48 0 1 1 96 0 48 48 0 1 1 -96 0zm336-48a48 48 0 1 1 0 96 48 48 0 1 1 0-96z"/></svg>
+                        <svg xmlns="http://www.w3.org/2000/svg" height="16" width="16" viewBox="0 0 512 512"><path d="M406.5 399.6C387.4 352.9 341.5 320 288 320H224c-53.5 0-99.4 32.9-118.5 79.6C69.9 362.2 48 311.7 48 256C48 141.1 141.1 48 256 48s208 93.1 208 208c0 55.7-21.9 106.2-57.5 143.6zm-40.1 32.7C334.4 452.4 296.6 464 256 464s-78.4-11.6-110.5-31.7c7.3-36.7 39.7-64.3 78.5-64.3h64c38.8 0 71.2 27.6 78.5 64.3zM256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zm0-272a40 40 0 1 1 0-80 40 40 0 1 1 0 80zm-88-40a88 88 0 1 0 176 0 88 88 0 1 0 -176 0z"/></svg>
+                    </div>
+                </li>
+            </ul>
+            <hr>
+        </nav>
+    </header>
+    <main>
+        <div class ="content">
+            <div class = "images">
+                <div class ="small-image">
+                    <img src="../IMG/small_tshirt_1.png" alt="small_tshirt_1">
+                    <img src="../IMG/small_tshirt_2.png" alt="small_tshirt_2">
+                    <img src="../IMG/small_tshirt_3.png" alt="small_tshirt_3">
+                </div>
+                <div class ="large-image">
+                    <img src="../IMG/large_tshirt_1.png" alt="large_tshirt_1">
+                </div>
             </div>
-            <div class ="large-image">
-                <img src="../IMG/large_tshirt_1.png" alt="large_tshirt_1">
-            </div>
-        </div>
-        <div class ="main-part">
-            <div class = "text">
-                <div class = description-item>
-                    <h1>One Life Graphic T-shirt </h1>
-                    <div class = "stars">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="25" height="23" viewBox="0 0 25 23" fill="none">
-                            <path d="M12.3562 0L15.8569 7.53796L24.1077 8.53794L18.0204 14.1966L19.619 22.3526L12.3562 18.3119L5.09341 22.3526L6.69201 14.1966L0.604756 8.53794L8.85555 7.53796L12.3562 0Z" fill="#FFC633" style="fill:#FFC633;fill:color(display-p3 1.0000 0.7760 0.2000);fill-opacity:1;"/>
-                        </svg>
-                        <svg xmlns="http://www.w3.org/2000/svg" width="25" height="23" viewBox="0 0 25 23" fill="none">
-                            <path d="M12.3562 0L15.8569 7.53796L24.1077 8.53794L18.0204 14.1966L19.619 22.3526L12.3562 18.3119L5.09341 22.3526L6.69201 14.1966L0.604756 8.53794L8.85555 7.53796L12.3562 0Z" fill="#FFC633" style="fill:#FFC633;fill:color(display-p3 1.0000 0.7760 0.2000);fill-opacity:1;"/>
-                        </svg>
-                        <svg xmlns="http://www.w3.org/2000/svg" width="25" height="23" viewBox="0 0 25 23" fill="none">
-                            <path d="M12.3562 0L15.8569 7.53796L24.1077 8.53794L18.0204 14.1966L19.619 22.3526L12.3562 18.3119L5.09341 22.3526L6.69201 14.1966L0.604756 8.53794L8.85555 7.53796L12.3562 0Z" fill="#FFC633" style="fill:#FFC633;fill:color(display-p3 1.0000 0.7760 0.2000);fill-opacity:1;"/>
-                        </svg>
-                        <svg xmlns="http://www.w3.org/2000/svg" width="25" height="23" viewBox="0 0 25 23" fill="none">
-                            <path d="M12.3562 0L15.8569 7.53796L24.1077 8.53794L18.0204 14.1966L19.619 22.3526L12.3562 18.3119L5.09341 22.3526L6.69201 14.1966L0.604756 8.53794L8.85555 7.53796L12.3562 0Z" fill="#FFC633" style="fill:#FFC633;fill:color(display-p3 1.0000 0.7760 0.2000);fill-opacity:1;"/>
-                        </svg>
-                        <svg xmlns="http://www.w3.org/2000/svg" width="12" height="23" viewBox="0 0 12 23" fill="none">
-                            <path d="M4.73719 22.3526L12 18.3119V0L8.49932 7.53796L0.248535 8.53793L6.33579 14.1966L4.73719 22.3526Z" fill="#FFC633" style="fill:#FFC633;fill:color(display-p3 1.0000 0.7760 0.2000);fill-opacity:1;"/>
-                        </svg>
-                    
-                        <div class = "note">
-                            4.5/5
+            <div class ="main-part">
+                <section class="info">
+                    <h1>One Life Graphic T-shirt</h1>
+                    <div class="rating">
+                        <div class = "stars">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="25" height="23" viewBox="0 0 25 23" fill="none"><path d="M12.3562 0L15.8569 7.53796L24.1077 8.53794L18.0204 14.1966L19.619 22.3526L12.3562 18.3119L5.09341 22.3526L6.69201 14.1966L0.604756 8.53794L8.85555 7.53796L12.3562 0Z" fill="#FFC633" style="fill:#FFC633;fill:color(display-p3 1.0000 0.7760 0.2000);fill-opacity:1;"/></svg>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="25" height="23" viewBox="0 0 25 23" fill="none"><path d="M12.3562 0L15.8569 7.53796L24.1077 8.53794L18.0204 14.1966L19.619 22.3526L12.3562 18.3119L5.09341 22.3526L6.69201 14.1966L0.604756 8.53794L8.85555 7.53796L12.3562 0Z" fill="#FFC633" style="fill:#FFC633;fill:color(display-p3 1.0000 0.7760 0.2000);fill-opacity:1;"/></svg>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="25" height="23" viewBox="0 0 25 23" fill="none"><path d="M12.3562 0L15.8569 7.53796L24.1077 8.53794L18.0204 14.1966L19.619 22.3526L12.3562 18.3119L5.09341 22.3526L6.69201 14.1966L0.604756 8.53794L8.85555 7.53796L12.3562 0Z" fill="#FFC633" style="fill:#FFC633;fill:color(display-p3 1.0000 0.7760 0.2000);fill-opacity:1;"/></svg>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="25" height="23" viewBox="0 0 25 23" fill="none"><path d="M12.3562 0L15.8569 7.53796L24.1077 8.53794L18.0204 14.1966L19.619 22.3526L12.3562 18.3119L5.09341 22.3526L6.69201 14.1966L0.604756 8.53794L8.85555 7.53796L12.3562 0Z" fill="#FFC633" style="fill:#FFC633;fill:color(display-p3 1.0000 0.7760 0.2000);fill-opacity:1;"/></svg>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="12" height="23" viewBox="0 0 12 23" fill="none"><path d="M4.73719 22.3526L12 18.3119V0L8.49932 7.53796L0.248535 8.53793L6.33579 14.1966L4.73719 22.3526Z" fill="#FFC633" style="fill:#FFC633;fill:color(display-p3 1.0000 0.7760 0.2000);fill-opacity:1;"/></svg>
                         </div>
+                        <span class = "note">4.5/5</span>
                     </div>
-                    
-                </div>
-                <div class = "price">
-                    $260 <strike>$300</strike>
-                </div>
-                <div class ="description">
-                    This graphic t-shirt which is perfect for any occasion. Crafted from a soft and breathable fabric, it offers superior comfort and style.
-                </div>
+                    <span class = "price">$260 <strike>$300</strike></span>
+                    <span class ="description">This graphic t-shirt which is perfect for any occasion. Crafted from a soft and breathable fabric, it offers superior comfort and style.</span>
+                </section>
+                <hr class="phone">
+                <section class="colors">
+                    <span class = "color-text">Select Color</span>
+                    <div class="color-choose">
+                        <div class="circle color-1">
+                            <svg xmlns="http://www.w3.org/2000/svg" height="16" width="14" viewBox="0 0 448 512"><path d="M438.6 105.4c12.5 12.5 12.5 32.8 0 45.3l-256 256c-12.5 12.5-32.8 12.5-45.3 0l-128-128c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0L160 338.7 393.4 105.4c12.5-12.5 32.8-12.5 45.3 0z" fill="white"/></svg>
+                        </div>
+                        <div class="circle color-2"></div>
+                        <div class="circle color-3"></div>
+                    </div>
+                </section>
+                <hr class="phone">
+                <section class="size-cart">
+                    <span class="size-text">Choose Size</span>
+                    <div class ="size-choice">
+                        <button class="btn-size">Small</button>
+                        <button class="btn-size">Medium</button>
+                        <button class="btn-size-selected">Large</button>
+                        <button class="btn-size">X-Large</button>
+                    </div>
+                    <hr>
+                    <div class = "quantity">
+                        <button class="btn-quantity">
+                            <svg xmlns="http://www.w3.org/2000/svg" height="16" width="14" viewBox="0 0 448 512"><path d="M432 256c0 17.7-14.3 32-32 32L48 288c-17.7 0-32-14.3-32-32s14.3-32 32-32l352 0c17.7 0 32 14.3 32 32z"/></svg>
+                            <span class="number">1</span>
+                            <svg xmlns="http://www.w3.org/2000/svg" height="16" width="14" viewBox="0 0 448 512"><path d="M256 80c0-17.7-14.3-32-32-32s-32 14.3-32 32V224H48c-17.7 0-32 14.3-32 32s14.3 32 32 32H192V432c0 17.7 14.3 32 32 32s32-14.3 32-32V288H400c17.7 0 32-14.3 32-32s-14.3-32-32-32H256V80z"/></svg>
+                        </button>
+                        <button class="btn-cart">Add to Cart</button>
+                    </div>
+                </section>
             </div>
-            <div class = "color">
-                Select Color
-                <div class = "color-choice">
-                    <svg width="143" height="37" viewBox="0 0 143 37" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <circle cx="18.5" cy="18.5" r="18.5" fill="#4F4631" style="fill:#4F4631;fill:color(display-p3 0.3098 0.2745 0.1922);fill-opacity:1;"/>
-                        <path d="M24.5306 15.0306L16.5306 23.0306C16.461 23.1005 16.3782 23.156 16.287 23.1939C16.1958 23.2317 16.0981 23.2512 15.9994 23.2512C15.9007 23.2512 15.8029 23.2317 15.7118 23.1939C15.6206 23.156 15.5378 23.1005 15.4681 23.0306L11.9681 19.5306C11.8984 19.4609 11.843 19.378 11.8053 19.2869C11.7675 19.1957 11.7481 19.098 11.7481 18.9994C11.7481 18.9007 11.7675 18.803 11.8053 18.7119C11.843 18.6207 11.8984 18.5379 11.9681 18.4681C12.0379 18.3984 12.1207 18.343 12.2119 18.3053C12.303 18.2675 12.4007 18.2481 12.4994 18.2481C12.598 18.2481 12.6957 18.2675 12.7869 18.3053C12.878 18.343 12.9609 18.3984 13.0306 18.4681L16 21.4375L23.4694 13.9694C23.6103 13.8285 23.8014 13.7493 24.0006 13.7493C24.1999 13.7493 24.391 13.8285 24.5319 13.9694C24.6728 14.1103 24.7519 14.3014 24.7519 14.5006C24.7519 14.6999 24.6728 14.891 24.5319 15.0319L24.5306 15.0306Z" fill="white" style="fill:white;fill-opacity:1;"/>
-                        <circle cx="71.5" cy="18.5" r="18.5" fill="#314F4A" class = "non-selected-color" style="fill:#314F4A;fill:color(display-p3 0.1922 0.3098 0.2886);fill-opacity:1;"/>
-                        <circle cx="124.5" cy="18.5" r="18.5" fill="#31344F"  class = "non-selected-color" style="fill:#31344F;fill:color(display-p3 0.1922 0.2039 0.3098);fill-opacity:1;"/>
-                    </svg>
-                </div>
-            </div>
-            <div class = "size">
-                Select Size
-                <div class ="size-choice">
-                    <div class = "size-1">
-                       Small 
-                    </div>
-                    <div class = "size-1">
-                        Medium
-                    </div>
-                    <div class = "size-2">
-                        Large
-                    </div>
-                    <div class = "size-1">
-                        X-Large
-                    </div>
-                </div>
-            </div>
-            
-            <div class = "quantity">
-                <div class = "select-quantity">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" class ="change-quantity">
-                            <path d="M21.375 12C21.375 12.2984 21.2565 12.5845 21.0455 12.7955C20.8345 13.0065 20.5484 13.125 20.25 13.125H3.75C3.45163 13.125 3.16548 13.0065 2.9545 12.7955C2.74353 12.5845 2.625 12.2984 2.625 12C2.625 11.7016 2.74353 11.4155 2.9545 11.2045C3.16548 10.9935 3.45163 10.875 3.75 10.875H20.25C20.5484 10.875 20.8345 10.9935 21.0455 11.2045C21.2565 11.4155 21.375 11.7016 21.375 12Z" fill="black" style="fill:black;fill-opacity:1;"/>
-                        </svg> 
-                    <div class = "one">
-                        1
-                    </div>
-                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" class = "change-quantity">
-                            <path d="M21.375 12C21.375 12.2984 21.2565 12.5845 21.0455 12.7955C20.8345 13.0065 20.5484 13.125 20.25 13.125H13.125V20.25C13.125 20.5484 13.0065 20.8345 12.7955 21.0455C12.5845 21.2565 12.2984 21.375 12 21.375C11.7016 21.375 11.4155 21.2565 11.2045 21.0455C10.9935 20.8345 10.875 20.5484 10.875 20.25V13.125H3.75C3.45163 13.125 3.16548 13.0065 2.9545 12.7955C2.74353 12.5845 2.625 12.2984 2.625 12C2.625 11.7016 2.74353 11.4155 2.9545 11.2045C3.16548 10.9935 3.45163 10.875 3.75 10.875H10.875V3.75C10.875 3.45163 10.9935 3.16548 11.2045 2.9545C11.4155 2.74353 11.7016 2.625 12 2.625C12.2984 2.625 12.5845 2.74353 12.7955 2.9545C13.0065 3.16548 13.125 3.45163 13.125 3.75V10.875H20.25C20.5484 10.875 20.8345 10.9935 21.0455 11.2045C21.2565 11.4155 21.375 11.7016 21.375 12Z" fill="black" style="fill:black;fill-opacity:1;"/>
-                        </svg>
-                </div>
-                <div class ="add-to-cart">
-                    Add to Cart
-                </div>
         </div>
-    </div>
+        <div class="comment">
+            <div class="header">
+                <h3>All reviews</h3>
+                <button class="btn-review">Write a Review</button>
+            </div>
+            <div class="container">
+                <div class="rectanglecom">
+                    <svg width="23" height="21" viewBox="0 0 23 21" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M11.2895 0L14.4879 6.8872L22.0264 7.80085L16.4647 12.971L17.9253 20.4229L11.2895 16.731L4.6537 20.4229L6.11428 12.971L0.552547 7.80085L8.09104 6.8872L11.2895 0Z" fill="#FFC633" style="fill:#FFC633;fill:color(display-p3 1.0000 0.7760 0.2000);fill-opacity:1;"/></svg>
+                    <svg width="23" height="21" viewBox="0 0 23 21" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M11.3553 0L14.5537 6.8872L22.0922 7.80085L16.5305 12.971L17.9911 20.4229L11.3553 16.731L4.71946 20.4229L6.18005 12.971L0.618313 7.80085L8.1568 6.8872L11.3553 0Z" fill="#FFC633" style="fill:#FFC633;fill:color(display-p3 1.0000 0.7760 0.2000);fill-opacity:1;"/></svg>
+                    <svg width="23" height="21" viewBox="0 0 23 21" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M11.421 0L14.6195 6.8872L22.158 7.80085L16.5962 12.971L18.0568 20.4229L11.421 16.731L4.78523 20.4229L6.24582 12.971L0.684078 7.80085L8.22257 6.8872L11.421 0Z" fill="#FFC633" style="fill:#FFC633;fill:color(display-p3 1.0000 0.7760 0.2000);fill-opacity:1;"/></svg>
+                    <svg width="23" height="21" viewBox="0 0 23 21" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M11.4868 0L14.6852 6.8872L22.2237 7.80085L16.662 12.971L18.1226 20.4229L11.4868 16.731L4.85096 20.4229L6.31155 12.971L0.749813 7.80085L8.2883 6.8872L11.4868 0Z" fill="#FFC633" style="fill:#FFC633;fill:color(display-p3 1.0000 0.7760 0.2000);fill-opacity:1;"/></svg>
+                    <svg width="11" height="21" viewBox="0 0 11 21" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4.36421 20.4229L11 16.731V0L7.80155 6.8872L0.263062 7.80085L5.8248 12.971L4.36421 20.4229Z" fill="#FFC633" style="fill:#FFC633;fill:color(display-p3 1.0000 0.7760 0.2000);fill-opacity:1;"/></svg>
+                    <h1>Samantha D.</h1>
+                    <p>"I absolutely love this t-shirt! The design is unique and the fabric feels so comfortable. As a fellow designer, I appreciate the attention to detail. It's become my favorite go-to shirt."</p>
+                    <h2>Posted on August 14, 2023</h2>
+                </div>
+                <div class="rectanglecom">
+                    <svg width="23" height="21" viewBox="0 0 23 21" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M11.2895 0L14.4879 6.8872L22.0264 7.80085L16.4647 12.971L17.9253 20.4229L11.2895 16.731L4.6537 20.4229L6.11428 12.971L0.552547 7.80085L8.09104 6.8872L11.2895 0Z" fill="#FFC633" style="fill:#FFC633;fill:color(display-p3 1.0000 0.7760 0.2000);fill-opacity:1;"/></svg>
+                    <svg width="23" height="21" viewBox="0 0 23 21" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M11.3553 0L14.5537 6.8872L22.0922 7.80085L16.5305 12.971L17.9911 20.4229L11.3553 16.731L4.71946 20.4229L6.18005 12.971L0.618313 7.80085L8.1568 6.8872L11.3553 0Z" fill="#FFC633" style="fill:#FFC633;fill:color(display-p3 1.0000 0.7760 0.2000);fill-opacity:1;"/></svg>
+                    <svg width="23" height="21" viewBox="0 0 23 21" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M11.421 0L14.6195 6.8872L22.158 7.80085L16.5962 12.971L18.0568 20.4229L11.421 16.731L4.78523 20.4229L6.24582 12.971L0.684078 7.80085L8.22257 6.8872L11.421 0Z" fill="#FFC633" style="fill:#FFC633;fill:color(display-p3 1.0000 0.7760 0.2000);fill-opacity:1;"/></svg>
+                    <svg width="23" height="21" viewBox="0 0 23 21" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M11.4868 0L14.6852 6.8872L22.2237 7.80085L16.662 12.971L18.1226 20.4229L11.4868 16.731L4.85096 20.4229L6.31155 12.971L0.749813 7.80085L8.2883 6.8872L11.4868 0Z" fill="#FFC633" style="fill:#FFC633;fill:color(display-p3 1.0000 0.7760 0.2000);fill-opacity:1;"/></svg>
+                    <h1>Alex M.</h1>
+                    <p>"The t-shirt exceeded my expectations! The colors are vibrant and the print quality is top-notch. Being a UI/UX designer myself, I'm quite picky about aesthetics, and this t-shirt definitely gets a thumbs up from me."</p>
+                    <h2>Posted on August 15, 2023</h2>
+                </div>
+                <div class="rectanglecom">
+                    <svg width="23" height="21" viewBox="0 0 23 21" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M11.2895 0L14.4879 6.8872L22.0264 7.80085L16.4647 12.971L17.9253 20.4229L11.2895 16.731L4.6537 20.4229L6.11428 12.971L0.552547 7.80085L8.09104 6.8872L11.2895 0Z" fill="#FFC633" style="fill:#FFC633;fill:color(display-p3 1.0000 0.7760 0.2000);fill-opacity:1;"/></svg>
+                    <svg width="23" height="21" viewBox="0 0 23 21" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M11.3553 0L14.5537 6.8872L22.0922 7.80085L16.5305 12.971L17.9911 20.4229L11.3553 16.731L4.71946 20.4229L6.18005 12.971L0.618313 7.80085L8.1568 6.8872L11.3553 0Z" fill="#FFC633" style="fill:#FFC633;fill:color(display-p3 1.0000 0.7760 0.2000);fill-opacity:1;"/></svg>
+                    <svg width="23" height="21" viewBox="0 0 23 21" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M11.421 0L14.6195 6.8872L22.158 7.80085L16.5962 12.971L18.0568 20.4229L11.421 16.731L4.78523 20.4229L6.24582 12.971L0.684078 7.80085L8.22257 6.8872L11.421 0Z" fill="#FFC633" style="fill:#FFC633;fill:color(display-p3 1.0000 0.7760 0.2000);fill-opacity:1;"/></svg>
+                    <svg width="11" height="21" viewBox="0 0 11 21" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4.36421 20.4229L11 16.731V0L7.80155 6.8872L0.263062 7.80085L5.8248 12.971L4.36421 20.4229Z" fill="#FFC633" style="fill:#FFC633;fill:color(display-p3 1.0000 0.7760 0.2000);fill-opacity:1;"/></svg>
+                    <h1>Ethan R.</h1>
+                    <p>"This t-shirt is a must-have for anyone who appreciates good design. The minimalistic yet stylish pattern caught my eye, and the fit is perfect. I can see the designer's touch in every aspect of this shirt."</p>
+                    <h2>Posted on August 16, 2023</h2>
+                </div>
+                <div class="rectanglecom">
+                    <svg width="23" height="21" viewBox="0 0 23 21" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M11.2895 0L14.4879 6.8872L22.0264 7.80085L16.4647 12.971L17.9253 20.4229L11.2895 16.731L4.6537 20.4229L6.11428 12.971L0.552547 7.80085L8.09104 6.8872L11.2895 0Z" fill="#FFC633" style="fill:#FFC633;fill:color(display-p3 1.0000 0.7760 0.2000);fill-opacity:1;"/></svg>
+                    <svg width="23" height="21" viewBox="0 0 23 21" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M11.3553 0L14.5537 6.8872L22.0922 7.80085L16.5305 12.971L17.9911 20.4229L11.3553 16.731L4.71946 20.4229L6.18005 12.971L0.618313 7.80085L8.1568 6.8872L11.3553 0Z" fill="#FFC633" style="fill:#FFC633;fill:color(display-p3 1.0000 0.7760 0.2000);fill-opacity:1;"/></svg>
+                    <svg width="23" height="21" viewBox="0 0 23 21" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M11.421 0L14.6195 6.8872L22.158 7.80085L16.5962 12.971L18.0568 20.4229L11.421 16.731L4.78523 20.4229L6.24582 12.971L0.684078 7.80085L8.22257 6.8872L11.421 0Z" fill="#FFC633" style="fill:#FFC633;fill:color(display-p3 1.0000 0.7760 0.2000);fill-opacity:1;"/></svg>
+                    <svg width="23" height="21" viewBox="0 0 23 21" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M11.4868 0L14.6852 6.8872L22.2237 7.80085L16.662 12.971L18.1226 20.4229L11.4868 16.731L4.85096 20.4229L6.31155 12.971L0.749813 7.80085L8.2883 6.8872L11.4868 0Z" fill="#FFC633" style="fill:#FFC633;fill:color(display-p3 1.0000 0.7760 0.2000);fill-opacity:1;"/></svg>
+                    <h1>Olivia P.</h1>
+                    <p>"As a UI/UX enthusiast, I value simplicity and functionality. This t-shirt not only represents those principles but also feels great to wear. It's evident that the designer poured their creativity into making this t-shirt stand out."</p>
+                    <h2>Posted on August 18, 2023</h2>
+                </div>
+                <div class="rectanglecom">
+                    <svg width="23" height="21" viewBox="0 0 23 21" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M11.2895 0L14.4879 6.8872L22.0264 7.80085L16.4647 12.971L17.9253 20.4229L11.2895 16.731L4.6537 20.4229L6.11428 12.971L0.552547 7.80085L8.09104 6.8872L11.2895 0Z" fill="#FFC633" style="fill:#FFC633;fill:color(display-p3 1.0000 0.7760 0.2000);fill-opacity:1;"/></svg>
+                    <svg width="23" height="21" viewBox="0 0 23 21" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M11.3553 0L14.5537 6.8872L22.0922 7.80085L16.5305 12.971L17.9911 20.4229L11.3553 16.731L4.71946 20.4229L6.18005 12.971L0.618313 7.80085L8.1568 6.8872L11.3553 0Z" fill="#FFC633" style="fill:#FFC633;fill:color(display-p3 1.0000 0.7760 0.2000);fill-opacity:1;"/></svg>
+                    <svg width="23" height="21" viewBox="0 0 23 21" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M11.421 0L14.6195 6.8872L22.158 7.80085L16.5962 12.971L18.0568 20.4229L11.421 16.731L4.78523 20.4229L6.24582 12.971L0.684078 7.80085L8.22257 6.8872L11.421 0Z" fill="#FFC633" style="fill:#FFC633;fill:color(display-p3 1.0000 0.7760 0.2000);fill-opacity:1;"/></svg>
+                    <svg width="23" height="21" viewBox="0 0 23 21" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M11.4868 0L14.6852 6.8872L22.2237 7.80085L16.662 12.971L18.1226 20.4229L11.4868 16.731L4.85096 20.4229L6.31155 12.971L0.749813 7.80085L8.2883 6.8872L11.4868 0Z" fill="#FFC633" style="fill:#FFC633;fill:color(display-p3 1.0000 0.7760 0.2000);fill-opacity:1;"/></svg>
+                    <h1>Liam K.</h1>
+                    <p>"This t-shirt is a fusion of comfort and creativity. The fabric is soft, and the design speaks volumes about the designer's skill. It's like wearing a piece of art that reflects my passion for both design and fashion."</p>
+                    <h2>Posted on August 18, 2023</h2>
+                </div>
+                <div class="rectanglecom">
+                    <svg width="23" height="21" viewBox="0 0 23 21" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M11.2895 0L14.4879 6.8872L22.0264 7.80085L16.4647 12.971L17.9253 20.4229L11.2895 16.731L4.6537 20.4229L6.11428 12.971L0.552547 7.80085L8.09104 6.8872L11.2895 0Z" fill="#FFC633" style="fill:#FFC633;fill:color(display-p3 1.0000 0.7760 0.2000);fill-opacity:1;"/></svg>
+                    <svg width="23" height="21" viewBox="0 0 23 21" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M11.3553 0L14.5537 6.8872L22.0922 7.80085L16.5305 12.971L17.9911 20.4229L11.3553 16.731L4.71946 20.4229L6.18005 12.971L0.618313 7.80085L8.1568 6.8872L11.3553 0Z" fill="#FFC633" style="fill:#FFC633;fill:color(display-p3 1.0000 0.7760 0.2000);fill-opacity:1;"/></svg>
+                    <svg width="23" height="21" viewBox="0 0 23 21" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M11.421 0L14.6195 6.8872L22.158 7.80085L16.5962 12.971L18.0568 20.4229L11.421 16.731L4.78523 20.4229L6.24582 12.971L0.684078 7.80085L8.22257 6.8872L11.421 0Z" fill="#FFC633" style="fill:#FFC633;fill:color(display-p3 1.0000 0.7760 0.2000);fill-opacity:1;"/></svg>
+                    <svg width="23" height="21" viewBox="0 0 23 21" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M11.4868 0L14.6852 6.8872L22.2237 7.80085L16.662 12.971L18.1226 20.4229L11.4868 16.731L4.85096 20.4229L6.31155 12.971L0.749813 7.80085L8.2883 6.8872L11.4868 0Z" fill="#FFC633" style="fill:#FFC633;fill:color(display-p3 1.0000 0.7760 0.2000);fill-opacity:1;"/></svg>
+                    <svg width="11" height="21" viewBox="0 0 11 21" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4.36421 20.4229L11 16.731V0L7.80155 6.8872L0.263062 7.80085L5.8248 12.971L4.36421 20.4229Z" fill="#FFC633" style="fill:#FFC633;fill:color(display-p3 1.0000 0.7760 0.2000);fill-opacity:1;"/></svg>
+                    <h1>Ava H.</h1>
+                    <p>"I'm not just wearing a t-shirt; I'm wearing a piece of design philosophy. The intricate details and thoughtful layout of the design make this shirt a conversation starter."</p>
+                    <h2>Posted on August 19, 2023</h2>
+                </div>
+            </div>
+        </div>
+    </main>
 </body>
 </html>
